@@ -4,7 +4,7 @@
 class Vericlaw < Formula
   desc "Formally verified AI agent runtime built with Ada/SPARK"
   homepage "https://github.com/vericlaw/vericlaw"
-  version "0.1.0"
+  version "0.1.1"
   license "Apache-2.0"
   # Pre-built binaries — no source compilation required
   bottle :unneeded
@@ -12,22 +12,22 @@ class Vericlaw < Formula
   on_macos do
     on_arm do
       url "https://github.com/vericlaw/vericlaw/releases/download/v#{version}/vericlaw-v#{version}-macos-universal.tar.gz"
-      sha256 "ea8e9a28d45e47f53835661043c0c100337eaea83824833b5d5c1c48f4d1e993"
+      sha256 "7ebb8871a69489e07b9a1dc4de078c9bb430637f470b4e7020b7918b2245021c"
     end
     on_intel do
       url "https://github.com/vericlaw/vericlaw/releases/download/v#{version}/vericlaw-v#{version}-macos-universal.tar.gz"
-      sha256 "ea8e9a28d45e47f53835661043c0c100337eaea83824833b5d5c1c48f4d1e993"
+      sha256 "7ebb8871a69489e07b9a1dc4de078c9bb430637f470b4e7020b7918b2245021c"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/vericlaw/vericlaw/releases/download/v#{version}/vericlaw-v#{version}-linux-aarch64.tar.gz"
-      sha256 "c8bba2ceb2a2ee4630146fa0abe2b5316127070ce31eecf7daac65441772a00b"
+      sha256 "81f20919183b12c58f760dc1eed29de293a75ffced55aeebd58c85fbacc8a106"
     end
     on_intel do
       url "https://github.com/vericlaw/vericlaw/releases/download/v#{version}/vericlaw-v#{version}-linux-x86_64.tar.gz"
-      sha256 "9952df54e4a642279328d970143e4d83019f15ddca67af8ddee051b4a8acc7d5"
+      sha256 "9e736d8d5783422276e4bcdebe4a4826addd7983b443355cafd34eff1b583fa7"
     end
   end
 

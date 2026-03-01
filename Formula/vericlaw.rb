@@ -12,22 +12,22 @@ class Vericlaw < Formula
   on_macos do
     on_arm do
       url "https://github.com/vericlaw/vericlaw/releases/download/v#{version}/vericlaw-v#{version}-macos-universal.tar.gz"
-      sha256 "0cacee7d0123edec3b60dd922b35fc383672903cf2a57ad1899725232a44aed0"
+      sha256 "ea8e9a28d45e47f53835661043c0c100337eaea83824833b5d5c1c48f4d1e993"
     end
     on_intel do
       url "https://github.com/vericlaw/vericlaw/releases/download/v#{version}/vericlaw-v#{version}-macos-universal.tar.gz"
-      sha256 "0cacee7d0123edec3b60dd922b35fc383672903cf2a57ad1899725232a44aed0"
+      sha256 "ea8e9a28d45e47f53835661043c0c100337eaea83824833b5d5c1c48f4d1e993"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/vericlaw/vericlaw/releases/download/v#{version}/vericlaw-v#{version}-linux-aarch64.tar.gz"
-      sha256 "03044f066e0ac2c0436c3a359a681e0b3c13c3315ac3fefc3752d8eb1cc2ca7c"
+      sha256 "c8bba2ceb2a2ee4630146fa0abe2b5316127070ce31eecf7daac65441772a00b"
     end
     on_intel do
       url "https://github.com/vericlaw/vericlaw/releases/download/v#{version}/vericlaw-v#{version}-linux-x86_64.tar.gz"
-      sha256 "3881cb9452ea98a75c58a0bbc3d51b0aab6ce195dd1e8896455a1f6b1b614ca4"
+      sha256 "9952df54e4a642279328d970143e4d83019f15ddca67af8ddee051b4a8acc7d5"
     end
   end
 
